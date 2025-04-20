@@ -17,7 +17,7 @@ final class Task {
     var location: String?
     var category: String?
     var isDone: Bool
- 
+    @Relationship(deleteRule: .nullify) var user: User?
     
     init(title: String, notes: String? = nil, dueDate: Date? = nil, location: String? = nil, category: String? = nil, isDone: Bool = false) {
         self.id = UUID()
