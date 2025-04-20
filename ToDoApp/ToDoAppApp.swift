@@ -23,9 +23,8 @@ struct ToDoAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BottomTabView()
         }
         .modelContainer(for: [Task.self, User.self])
     }
 }
-

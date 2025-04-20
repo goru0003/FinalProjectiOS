@@ -19,9 +19,27 @@
 		F2D81AEC2DB529E80060E5C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F2D81AF22DB52B290060E5C1 /* Exceptions for "ToDoApp" folder in "ToDoApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Views/BottomTabView.swift,
+				Views/CreateAccountView.swift,
+				Views/LoginView.swift,
+				Views/ProfileView.swift,
+				Views/TaskDetailView.swift,
+				Views/TaskListView.swift,
+			);
+			target = F2D81AA22DB4F6540060E5C1 /* ToDoApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F2D81AA52DB4F6540060E5C1 /* ToDoApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F2D81AF22DB52B290060E5C1 /* Exceptions for "ToDoApp" folder in "ToDoApp" target */,
+			);
 			path = ToDoApp;
 			sourceTree = "<group>";
 		};
